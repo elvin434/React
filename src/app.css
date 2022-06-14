@@ -1,0 +1,100 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #efefef;
+}
+header{
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    padding: 0 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+}
+.logo{
+    background-color: #4aaaa6;
+    width: 230px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+}
+nav{
+    float: right;
+    display: flex;
+    flex-direction: row;
+}
+nav a{
+    margin: 10px;
+    text-decoration: none;
+    color: #a4aeb0;
+    font-size: 20px;
+}
+.container{
+    width: 100%;
+    height: calc(100%-80px);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 15%;
+    
+}
+.about-me{
+    max-width: 60%;
+    background-color: white;
+    padding: 38px;
+}
+.title{
+    color: #4aaaa6;
+    font-size: 32px;
+    font-weight: 600;
+}
+.line{
+    width: 100%;
+    height: 3px;
+    margin: 28px 0;
+    background-color: gray;
+}
+p{
+    color: gray;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.about img{
+    width: 100%;
+}
+.connect-with-me{
+    padding: 38px;
+    background-color: white;
+    max-height: 20%;
+}
+.cconnect-with-me .title{
+    font-size: 26px;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+.links img{
+    width: 60px;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 6px;
+    background-color: #4aaaa6;
+}
